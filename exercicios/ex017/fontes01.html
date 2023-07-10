@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medodas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+             */
+            font-size: 1em;
+            font-weight: normal;
+            font-style: normal;
+            text-decoration: underline;
+            /* lighter normal bold bolder*/
+
+        }
+
+        h1 {
+            
+            /* shorthand font
+            font-style -> font-weight -> font-size -> font-family 
+
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em arial, sans-serif;
+        }
+
+        h2 {
+            font: bold 2em arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus illum sit nulla odio, saepe porro aliquid molestiae nemo nostrum? Minus laudantium, aut sequi odio magnam ullam enim assumenda suscipit consequatur Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias officiis corrupti vitae itaque, nemo, eaque, cupiditate iste illo animi quia illum amet veniam omnis culpa consectetur dolores ullam perferendis consequatur?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero et cum expedita quidem, omnis porro eaque numquam nemo pariatur autem provident praesentium laborum. Possimus ea eos ipsam quisquam hic eligendi.</p>
+    <h2>Subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, tenetur obcaecati deleniti suscipit iste labore recusandae. Facilis, maxime harum! Dicta enim iusto nemo nisi, nam similique quo ipsum animi ratione?</p>
+    
+</body>
+</html>
