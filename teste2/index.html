@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .center {
+            display: block;
+            margin: auto;
+        }
+
+        .imgWrap {
+            margin-bottom: 24px;
+        }
+        body {
+            min-height: 530px;
+            position: relative;
+            z-index: 0;
+            padding-bottom: 80px;
+        }
+    </style>
+</head>
+<body>
+    <script type="text/javascript" src="js\adaptive-backgrounds.js"></script>
+
+    <!-- the plugin will scan your HTML for all images with the 'data-adaptive-background' 
+    attribute and apply it's dominant color to the image's parent element's background -->
+    <div class="imgWrap">
+        <img class="center" src="https://i.ibb.co/Y8MgqzW/4.jpg" data-adaptive-background="1" />
+    </div>
+    <div class="imgWrap">
+        <img class="center" src="https://image.tmdb.org/t/p/w500//cTtrFUxMKUX4ZGfMfydym2AZQba.jpg" data-adaptive-background="1" />
+    </div>
+    <div class="imgWrap">
+        <img class="center" src="3.jpg" data-adaptive-background="1" />
+    </div>
+    <div class="imgWrap">
+        <img class="center" src="4.jpg" data-adaptive-background="1" />
+    </div>
+
+    <a href="https://ibb.co/d6qZzdc"><img src="https://image.tmdb.org/t/p/w500//cTtrFUxMKUX4ZGfMfydym2AZQba.jpg" alt="4" border="0"></a>
+<a href="https://ibb.co/JCTt9gC"><img src="https://i.ibb.co/vDWqSRD/3.jpg" alt="3" border="0"></a>
+<a href="https://ibb.co/s69q8jq"><img src="https://i.ibb.co/hZFV3sV/1.jpg" alt="1" border="0"></a>
+<a href="https://ibb.co/t2YJP2K"><img src="https://i.ibb.co/T0Pgq02/2.jpg" alt="2" border="0"></a>
+    <script>
+        AdaptiveBackgrounds();
+    </script>
+</body>
+</html>
